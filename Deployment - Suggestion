@@ -1,1 +1,7 @@
-I would store the raw and processed data in Azure Data Lake Storage Gen2 and securely connect it to Databricks using a service principal with proper RBAC access. I would manage the project code through Git integration in Databricks Repos to maintain version control and enable collaboration. Then I would create a scheduled job using Databricks Workflows, attach a job cluster with auto-termination for cost optimization, and configure retries and alerts for reliability. Finally, I would enable logging to Azure Storage and monitor job runs through the Databricks UI to ensure operational stability
+Deployment Suggestion
+Deployment Approach (Databricks + Azure)
+Store raw and processed data in Azure Data Lake Storage Gen2 with proper folder structure (raw, processed, curated).
+Securely connect Azure Storage to Databricks using a Service Principal with RBAC access control.
+Manage source code using Git integration in Databricks Repos to maintain version control and collaboration.
+Create a scheduled job in Databricks Workflows, attach a job cluster with auto-termination enabled for cost optimization.
+Configure retries, timeout settings, logging to Azure Storage, and failure alerts to ensure reliability and monitoring
