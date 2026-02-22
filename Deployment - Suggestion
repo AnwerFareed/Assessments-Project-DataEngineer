@@ -1,4 +1,3 @@
-Deployment Suggestion
 Deployment Approach (Databricks + Azure)
 Store raw and processed data in Azure Data Lake Storage Gen2 with proper folder structure (raw, processed, curated).
 Securely connect Azure Storage to Databricks using a Service Principal with RBAC access control.
